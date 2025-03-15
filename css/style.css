@@ -1,0 +1,101 @@
+/*basic styling*/
+
+body {
+	background: url("../assets/background.jpg");
+	background-size: 100%;
+	font-family: verdana, sans-serif;
+}
+
+a {
+	color: black;
+    margin-bottom: 5px;
+}
+
+#wrapper {
+	background: rgba(255, 255, 255, 0.7);
+	width: 80%;
+	margin: 0 auto;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+header {
+	position: sticky;
+	top: 0;
+	background: rgb(255, 254, 238);
+    padding: 5px;
+}
+
+.floatl {
+	float: left;
+	width: 25%;
+}
+
+.floatr {
+	float: right;
+	padding-left: 20px;
+	width: 70%;
+}
+
+.cllfix {
+	clear: both;
+}
+
+/*nav styling */
+
+
+nav ul {
+	list-style-type: none;
+	text-align: center;
+
+}
+
+nav ul li {
+	display: inline-block;
+    margin-bottom: 8px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 5px;
+}
+
+nav ul li a:hover {
+	border-bottom: 2px solid;
+	
+
+}
+
+/* table styling */
+
+table {
+	margin: 0 auto;
+	width: 50%;
+}
+table, th, td {
+	border: 2px dotted #cc3333;
+	border-collapse: collapse;
+	padding: 5px;
+}
+
+/*form styling */
+
+form {
+	margin: 0 auto;
+	width: 50%;
+}
+
+label {
+	width: 10em;
+	float: left;
+}
+.button1 {
+	float: left;
+	width: 50%;
+}
+
+.button2 {
+	float: right;
+	width: 50%;
+}
